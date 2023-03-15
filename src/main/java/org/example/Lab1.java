@@ -10,7 +10,7 @@ public class Lab1 {
                 point2 = new Point3d(inputDouble(sc), inputDouble(sc), inputDouble(sc)),
                 point3 = new Point3d(inputDouble(sc), inputDouble(sc), inputDouble(sc));
         sc.close();
-        printSqare(point1, point2, point3);
+        printArea(point1, point2, point3);
     }
     private static double inputDouble(Scanner sc) {
         while (!sc.hasNextDouble()) {
@@ -24,7 +24,7 @@ public class Lab1 {
                 p = (a + b + c) / 2;
         return Math.sqrt(p * (p - a) * (p - b) * (p - c));
     }
-    private static void printSqare(Point3d point1, Point3d point2, Point3d point3) {
+    private static void printArea(Point3d point1, Point3d point2, Point3d point3) {
         if (point1.equal(point2) || point1.equal(point3) || point2.equal(point3))
             System.out.println("This points couldn\'t provide the triangle creation!");
         else
