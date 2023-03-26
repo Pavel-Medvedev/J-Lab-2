@@ -7,7 +7,6 @@
     <list default="true" id="b70b9edf-9ca5-496d-91f3-8fb7f80a1347" name="Changes" comment="Выполнение лабораторной работы №2 по дисциплине Java программирование.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lab1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lab1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Point3d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Point3d.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678900460449</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Выполнение лабораторной работы №2 по дисциплине Java программирование.">
+      <created>1679849484349</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679849484349</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
