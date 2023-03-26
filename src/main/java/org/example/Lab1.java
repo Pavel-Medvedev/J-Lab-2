@@ -20,10 +20,12 @@ public class Lab1 {
         return sc.nextDouble();
     }
     private static double computeArea(Point3d point1, Point3d point2, Point3d point3) {
-        double temp = Math.max(point3.distanceTo(point1), Math.max(point2.distanceTo(point3), point1.distanceTo(point2)));
-        if (point1.distanceTo(point2) + point1.distanceTo(point3) + point2.distanceTo(point3) - temp > temp) {
-            double a = point1.distanceTo(point2), b = point2.distanceTo(point3), c = point3.distanceTo(point1),
-                    p = (a + b + c) / 2;
+        double  ab = point1.distanceTo(point2), ac = point3.distanceTo(point1), bc = point2.distanceTo(point3),
+                c = Math.max(bc, Math.max(ab, ac)),
+                b = ab + bc + ac - c - Math.min(bc, Math.min(ab, ac)),
+                a = ab + bc + ac - b - c;
+        if (a + b > c) {
+            double p = (a + b + c) / 2;
             return Math.sqrt(p * (p - a) * (p - b) * (p - c));
         }
         return 0;
